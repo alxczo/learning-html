@@ -1,0 +1,57 @@
+<html>
+        <title>
+            SISTEMA ACADÊMICO
+        </title>
+
+        <table border=1 bgcolor="blue" widht="100%">
+
+        <th><font color="white">CADASTRO DE ALUNOS</font></th>
+        </table>
+
+        <form name="academico" method="POST">
+            <h4>MATRICULA</h4>
+
+            <h4>
+                TÉCNICO EM INFORMÁTICA
+            </h4>
+            <table width="100%">
+                <tr>
+                    <td width="15%"><font size="3" face="arial">Aluno</font></td>
+                    <td><input type="text" name="codigo" size="5"></td>
+                    <td><input type size="3" name="Aluno" size="80"></td>
+                </tr>
+
+                <tr>
+                    <td width="15%"><font size="3" face="arial">Cursos</font></td>
+                    <td><input type="text" name="codigo" size="5"></td>
+                    <td><input type size="3" name="Nome" size="80"></td>
+                </tr>
+                
+                <tr>
+                    <td width="15%"><font size="3" face="arial">Tipo</font></td>
+                    <td>
+                        <select name="tipo">
+                            <option value="1">MATRICULA NORMAL</option>
+                            <option value="2">MATRICULA PSG</option>
+                            <option value="3">MATRICULA BOLSA</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                <td width="15%"><font size="3" face="arial">DESCRIÇÃO</font></td>
+                    
+                <td>
+                    <textarea name="DESCRIÇÃO" cols="50" rows="3"></textarea>
+                </td>
+                </tr>
+
+                <tr>
+                    <td align="center" colspan="2">
+                        <input type="submit" value="salvar">
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+</html>
